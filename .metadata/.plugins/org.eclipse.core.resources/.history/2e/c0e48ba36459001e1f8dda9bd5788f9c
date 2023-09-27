@@ -1,0 +1,8 @@
+import animal.Animal;
+import cachorro.cachorro;
+
+public class main {
+	public static void main(String[] args) {
+		Animal cachorro = new cachorro();
+	}
+}

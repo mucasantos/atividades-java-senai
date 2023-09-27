@@ -1,0 +1,24 @@
+package application;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Animal cavalinho = new Cavalo();
+		
+		cavalinho.emiteSom();
+	
+		Veterinario.examinar(cavalinho);
+		
+		//Array de tam fixo
+		
+		Jaula[] jaulas = new Jaula[10];
+		
+		jaulas[0].setAnimais(new Cavalo());
+		
+	
+
+	}
+
+}

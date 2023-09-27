@@ -1,0 +1,7 @@
+import animal.Animal;
+
+public class main {
+	public static void main(String[] args) {
+		Animal cachorro = new Cachorro();
+	}
+}

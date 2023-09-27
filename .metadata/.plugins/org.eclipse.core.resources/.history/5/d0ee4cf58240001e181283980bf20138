@@ -1,0 +1,16 @@
+package application;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Gerente gerenteCotia = new Gerente();
+		
+		gerenteCotia.setNome("Welton");
+		gerenteCotia.setSalario(19.800);
+		
+		System.out.println(gerenteCotia.getNome());
+		System.out.println(gerenteCotia.getSalario());
+	}
+}

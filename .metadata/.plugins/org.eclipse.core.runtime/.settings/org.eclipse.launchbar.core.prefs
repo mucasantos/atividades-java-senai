@@ -1,0 +1,16 @@
+LaunchTargetManager/configs/Bank=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Cadastro=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/MyBank=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Programa\ (1)=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Screen=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/TestaMidia=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/TesteIngressos=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/main=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/sistema=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Area,org.eclipse.launchbar.core.descriptorType.default\:Bank,org.eclipse.launchbar.core.descriptorType.default\:MyBank,org.eclipse.launchbar.core.descriptorType.default\:Principal,org.eclipse.launchbar.core.descriptorType.default\:Screen,org.eclipse.launchbar.core.descriptorType.default\:CreateAccount,org.eclipse.launchbar.core.descriptorType.default\:TesteIngressos,org.eclipse.launchbar.core.descriptorType.default\:Programa (1),org.eclipse.launchbar.core.descriptorType.default\:Controle,org.eclipse.launchbar.core.descriptorType.default\:Cadastro,org.eclipse.launchbar.core.descriptorType.default\:DadosVeiculo,org.eclipse.launchbar.core.descriptorType.default\:Programa,org.eclipse.launchbar.core.descriptorType.default\:TesteApp,org.eclipse.launchbar.core.descriptorType.default\:TestaMidia,org.eclipse.launchbar.core.descriptorType.default\:Program,org.eclipse.launchbar.core.descriptorType.default\:Program (1),org.eclipse.launchbar.core.descriptorType.default\:Program (2),org.eclipse.launchbar.core.descriptorType.default\:main (1),org.eclipse.launchbar.core.descriptorType.default\:main (2),org.eclipse.launchbar.core.descriptorType.default\:main,org.eclipse.launchbar.core.descriptorType.default\:sistema,org.eclipse.launchbar.core.descriptorType.default\:Programa (2)
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Area/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Area/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

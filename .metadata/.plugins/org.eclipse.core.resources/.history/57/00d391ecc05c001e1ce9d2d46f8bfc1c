@@ -1,0 +1,8 @@
+package application;
+
+public class Cavalo extends Animal {
+	
+	public void emiteSom() {
+		System.out.println("Cavalo gritando!!");
+	}
+}

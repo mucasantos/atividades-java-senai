@@ -1,0 +1,91 @@
+package programa;
+
+import java.util.Scanner;
+
+public class abstract Midia {
+
+	private int codigo;
+	private double preco;
+	private String name;
+
+	Midia() {
+		System.out.println("Digite os dados para cadastrar a midia");
+	}
+
+	public Midia(int codigo, double preco, String name) {
+		super();
+		this.codigo = codigo;
+		this.preco = preco;
+		this.name = name;
+	}
+
+	public String getTipo() {
+		return "Midia: ";
+	}
+
+	public String getDetalhes() {
+		String c = "Codigo: " + getCodigo();
+		String p = "Preco: " + getPreco();
+		String n = "Nome: " + getName();
+
+		/*
+		 * Código: 123 Preço: R$15,00 Nome: DVD
+		 */
+
+		return c + "\n" + p + "\n" + n + "\n";
+	}
+
+	public void printDados() {
+		System.out.println(getTipo() + "\n" + getDetalhes());
+	}
+
+	public void inserirDados() {
+		// Função para leitura dos dados via teclado.
+		Scanner in = new Scanner(System.in);
+
+		// Leitura dos dados do teclado.
+		System.out.printf("\n Entre com o codigo: ");
+		int cod = in.nextInt();
+		System.out.printf("\n Entre com o preco: ");
+		double pre = in.nextDouble();
+		in.nextLine(); // Leitura do enter.
+		System.out.printf("\n Entre com o nome: ");
+		String nam = in.nextLine();
+
+		// Enviando os dados lidos para as funcoes set.
+		setCodigo(cod);
+		setPreco(pre);
+		setName(nam);
+
+		in.close();
+
+	}
+
+	// Para pegar os dados
+	public int getCodigo() {
+		return codigo;
+	}
+
+	public double getPreco() {
+		return preco;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	// Para pegar os dados
+
+	public void setPreco(double preco) {
+		this.preco = preco;
+	}
+
+	public void setCodigo(int codigo) {
+		this.codigo = codigo;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+}

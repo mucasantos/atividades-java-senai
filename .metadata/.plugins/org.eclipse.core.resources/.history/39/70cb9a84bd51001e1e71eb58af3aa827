@@ -1,0 +1,15 @@
+package programa;
+
+public class TestaMidia {
+
+	public static void main(String[] args) {
+	
+		Midia midia = new Midia();
+				
+		midia.inserirDados();
+		
+		System.out.println(midia.getDetalhes());
+		midia.printDados();
+
+	}
+}

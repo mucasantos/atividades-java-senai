@@ -1,0 +1,9 @@
+package application;
+
+public class Cozinheiro extends Funcionario {
+
+	
+	public double bonificacao() {
+		return this.salario * 0.04;
+	}
+}

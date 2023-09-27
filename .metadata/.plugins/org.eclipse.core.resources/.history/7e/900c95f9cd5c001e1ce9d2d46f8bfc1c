@@ -1,0 +1,15 @@
+package application;
+
+public class Jaula {
+	Animal animal;
+
+	public Animal getAnimais() {
+		return animal;
+	}
+
+	public void setAnimais(Animal animal) {
+		this.animal = animal;
+	}
+	
+	
+}

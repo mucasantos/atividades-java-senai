@@ -1,0 +1,6 @@
+
+public class Dog {
+String name;
+int idade;
+String raca;
+}

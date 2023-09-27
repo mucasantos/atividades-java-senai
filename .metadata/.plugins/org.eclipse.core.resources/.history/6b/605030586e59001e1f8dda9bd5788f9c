@@ -1,0 +1,8 @@
+package models;
+
+public class User {
+	public String email;
+	public String senha;
+	public String nome;
+	public String numero;
+}

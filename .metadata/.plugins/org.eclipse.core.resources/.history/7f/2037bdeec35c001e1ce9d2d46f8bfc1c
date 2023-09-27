@@ -1,0 +1,10 @@
+package application;
+
+public abstract class Animal {
+	private String nome;
+	private int idade;
+	
+	public abstract  void emiteSom() ;
+	public abstract  void acao() ;
+
+}
