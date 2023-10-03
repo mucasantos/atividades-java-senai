@@ -1,6 +1,0 @@
-package models;
-
-public class Aluno extends Pessoa {
-	public String matricula;
-	public int nia; // numero identificador do aluno
-}

@@ -15,7 +15,12 @@ public class Programa {
 
 		// Array de tam fixo
 
-		Jaula[] jaulas = new Jaula[10];
+		//Forma 1 => Criando um array de animais como referência a uma jaula
+		Animal[] jaulas = new Animal[10];
+		
+		//Forma 2 => criando uma classe Jaula
+		
+		Jaula[] zoo = new Jaula[10];
 
 		System.out.println("Digite o nome do animal para inserir na jaula");
 		// input
@@ -31,7 +36,14 @@ public class Programa {
 			case "Cavalo":
 				Animal cachorro = new Cavalo();
 				cachorro.setNome("bob");
-				jaulas[index].setAnimal(cachorro);
+				jaulas[index] = cachorro;
+				
+				//Cada Jaula precisa ser instanciada antes de usar ...
+				zoo[index] = new Jaula();
+				
+				zoo[index].setNome("Jaula1");
+				zoo[index].setAnimal(cachorro);
+				
 				break;
 			default:
 				System.out.println("Não sei...");

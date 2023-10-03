@@ -1,8 +1,0 @@
-package cachorro;
-
-public class Cachorro {
-	@Override
-	public void somAnimal() {
-		System.out.println("Au au au au!");
-	}
-}

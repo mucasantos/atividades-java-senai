@@ -1,7 +1,0 @@
-import cachorro.cachorro;
-
-public class main {
-	public static void main(String[] args) {
-		Cachorro cachorro = new Cachorro();
-	}
-}

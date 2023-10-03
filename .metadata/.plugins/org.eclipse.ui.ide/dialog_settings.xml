@@ -8,6 +8,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Senai\Downloads\Giovanna\src-giovanna"/>
 			<item value="C:\Users\Senai\Downloads\inheritance8-java-master\imposto"/>
 			<item value="C:\Users\Senai\Downloads\inheritance7-java-master\src"/>
 			<item value="C:\Users\Senai\Downloads\gestaoDeFrota"/>

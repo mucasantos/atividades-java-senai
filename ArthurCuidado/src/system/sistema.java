@@ -16,7 +16,7 @@ public class sistema {
 		 * 
 		 */
 		
-		Aluno chile = new Aluno("chilinho123@gmail.com", "Jose Roberto", "11 97321-3241", "123", "nao");
+		Aluno chile = new Aluno("Chile@senaisp.com.br", "Jose Roberto", "11 97321-3241", "123", "nao");
 
 		chile.getNome();
 		System.out.println(chile.getNome());
@@ -49,7 +49,7 @@ public class sistema {
 				System.out.println("Qual a senha voce quer ?");
 				String senha = sc.next();
 				
-				System.out.println("Qual a permissao ? => Não tem permissão/Administrador/Usuário");
+				System.out.println("Qual a permissao ? => Nao tem permissao/Administrador/Usuario");
 				String permissao = sc.next();
 				
 				bruno.setNome(nome);
@@ -58,13 +58,13 @@ public class sistema {
 				bruno.setPermissao(permissao);
 				bruno.setSenha(senha);
 			} else if (valor == 2) {
-				System.out.println("Aqui está o usuario cadastrado");
+				System.out.println("Aqui esta o usuario cadastrado");
 				System.out.println("##############################");
-				System.out.println(bruno.getEmail());
-				System.out.println(bruno.getNome());
-				System.out.println(bruno.getPermissao());
-				System.out.println(bruno.getNumero());
-				System.out.println(bruno.getSenha());
+				System.out.println("Email: " + bruno.getEmail());
+				System.out.println("Nome: " + bruno.getNome());
+				System.out.println("Permissao: " + bruno.getPermissao());
+				System.out.println("Numero: " + bruno.getNumero());
+				System.out.println("Senha: " + bruno.getSenha());
 			} else if (valor == 0) {
 				opcao = true;
 			} else {
