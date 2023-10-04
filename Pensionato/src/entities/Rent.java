@@ -1,15 +1,21 @@
 package entities;
 
+/*
+ * author: Samuel Santos
+ * */
 public class Rent {
 	private String name;
 	private String email;
+	private String rg;
 	
+	//Construtor vazio
 	Rent(){}
 
-	public Rent(String name, String email) {
-		super();
+	public Rent(String name, String email, String rg) {
 		this.name = name;
 		this.email = email;
+		this.rg = rg;
+		
 	}
 
 	public String getName() {
