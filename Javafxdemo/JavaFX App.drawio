@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2023-11-29T00:17:51.542Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="8nEkTSESZWUmKV5W_3oj" version="22.1.4" type="device">
+  <diagram name="Página-1" id="OwZqzuOYDtKfuC48EbLi">
+    <mxGraphModel dx="1346" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LSp5eNxDJ3DB6hmZQ2b9-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LSp5eNxDJ3DB6hmZQ2b9-2" target="LSp5eNxDJ3DB6hmZQ2b9-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LSp5eNxDJ3DB6hmZQ2b9-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LSp5eNxDJ3DB6hmZQ2b9-2" target="LSp5eNxDJ3DB6hmZQ2b9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LSp5eNxDJ3DB6hmZQ2b9-2" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="100" width="340" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="LSp5eNxDJ3DB6hmZQ2b9-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LSp5eNxDJ3DB6hmZQ2b9-2" source="LSp5eNxDJ3DB6hmZQ2b9-3" target="LSp5eNxDJ3DB6hmZQ2b9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LSp5eNxDJ3DB6hmZQ2b9-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LSp5eNxDJ3DB6hmZQ2b9-2">
+          <mxGeometry x="60" y="50" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LSp5eNxDJ3DB6hmZQ2b9-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LSp5eNxDJ3DB6hmZQ2b9-2">
+          <mxGeometry x="60" y="110" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LSp5eNxDJ3DB6hmZQ2b9-7" value="Login" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="LSp5eNxDJ3DB6hmZQ2b9-2">
+          <mxGeometry x="180" y="150" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LSp5eNxDJ3DB6hmZQ2b9-9" value="Cadastro" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="LSp5eNxDJ3DB6hmZQ2b9-2">
+          <mxGeometry x="60" y="150" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LSp5eNxDJ3DB6hmZQ2b9-10" value="Cadastrar cliente" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="LSp5eNxDJ3DB6hmZQ2b9-12" value="" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="550" y="60" width="440" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="LSp5eNxDJ3DB6hmZQ2b9-14" value="Produtos" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="600" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LSp5eNxDJ3DB6hmZQ2b9-15" value="Usuários" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="730" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LSp5eNxDJ3DB6hmZQ2b9-16" value="Estoque" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="870" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -101,7 +101,7 @@ public class ViewController implements Initializable {
 		c.setTelefone(telefone.getText());
 
 		listaClientes.add(c);
-
+		
 		TabelaClientes.setItems(listaClientes);
 		TabelaClientes.refresh();
 
