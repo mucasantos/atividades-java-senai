@@ -5,8 +5,19 @@ public class Cliente {
 	private String nome;
 	private String email;
 	private String telefone;
+	private String password;
 	
+	public Cliente() {}
 	
+
+	public Cliente(String nome, String email,String password) {
+		super();
+		this.nome = nome;
+		this.email = email;
+		this.telefone = telefone;
+		this.password = password;
+	}
+
 	public String getNome() {
 		return nome;
 	}
@@ -34,6 +45,14 @@ public class Cliente {
 	@Override
 	public String toString() {
 		return "Cliente [nome=" + nome + ", email=" + email + ", telefone=" + telefone + "]";
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
 }

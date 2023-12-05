@@ -8,6 +8,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import model.Cliente;
 import model.LoginModel;
 
 public class LoginController {
@@ -18,6 +19,12 @@ public class LoginController {
 
 	@FXML
 	public void loadNextScreen() throws IOException {
+		
+		Cliente client = new Cliente("Samuel", "muca@email.com", "12345678");
+		
+		login.signup(client);
+		
+		//Criar um usuario
 		
 		//Pegando a Sena anterior e fechando a tela
 		Stage priorScreen = (Stage)this.passwordField.getScene().getWindow();
