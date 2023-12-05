@@ -32,6 +32,9 @@ public class Program {
 			int room = sc.nextInt();
 
 			allRooms[room] = new Rent(name, email, rg);
+			
+			System.out.println(allRooms[room]);
+
 		}
 		System.out.println();
 

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+   <children>
+      <ImageView fitHeight="186.0" fitWidth="277.0" layoutX="99.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@trovao.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="21.0" layoutY="266.0" text="Armazem Trovoso">
+         <font>
+            <Font name="Arial Italic" size="41.0" />
+         </font>
+      </Label>
+      <Label layoutX="442.0" layoutY="83.0" text="Usuario">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="448.0" layoutY="208.0" text="Senha">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" layoutX="398.0" layoutY="122.0" promptText="digite seu nome" />
+      <PasswordField fx:id="password" layoutX="398.0" layoutY="252.0" promptText="digite sua senha" />
+      <Button layoutX="449.0" layoutY="314.0" mnemonicParsing="false" onAction="#clickLogin" text="Entrar" />
+   </children>
+</AnchorPane>

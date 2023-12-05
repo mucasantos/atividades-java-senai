@@ -83,6 +83,7 @@ public class Worker {
 			// Peguei a data do contrato e setei o calendar pra ele
 			calendar.setTime(contract.getDate());
 			int yearContract = calendar.get(Calendar.YEAR);
+			//Soma mais 1, pois a contagem de meses é de 0 a 11
 			int monthContract = 1 + calendar.get(Calendar.MONTH);
 			
 			if(yearContract == year && monthContract == month) {

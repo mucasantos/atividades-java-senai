@@ -8,10 +8,18 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Senai\Downloads\ProjetoJavaEstoque-VictorEmerson"/>
+			<item value="C:\Users\Senai\Downloads\java-jdbc-main\java-jdbc-main"/>
 			<item value="C:\Users\Senai\Downloads\Giovanna\src-giovanna"/>
 			<item value="C:\Users\Senai\Downloads\inheritance8-java-master\imposto"/>
 			<item value="C:\Users\Senai\Downloads\inheritance7-java-master\src"/>
 			<item value="C:\Users\Senai\Downloads\gestaoDeFrota"/>
 		</list>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="TOGGLE_SELECTED" value="false"/>
+		<item key="DIALOG_WIDTH" value="822"/>
+		<item key="DIALOG_HEIGHT" value="456"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|14.25|0|WINDOWS|1|-19|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI"/>
 	</section>
 </section>

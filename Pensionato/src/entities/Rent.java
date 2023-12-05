@@ -36,7 +36,7 @@ public class Rent {
 
 	@Override
 	public String toString() {
-		return name + ", " + email;
+		return "Nome hospede:" +  name + "," + email;
 	}
 	
 	
