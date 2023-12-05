@@ -8,8 +8,10 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import model.LoginModel;
 
 public class LoginController {
+	public LoginModel login = new LoginModel();
 	
 	@FXML
 	TextField passwordField;
