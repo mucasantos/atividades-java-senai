@@ -1,0 +1,8 @@
+Criar uma classe Service para conexão com DB
+Criar uma lógica simples de login
+Cadastrar um user através de nossa app
+Cadastrar produtos
+
+Listar produtos
+Editar produtos
+Deletar produtos
