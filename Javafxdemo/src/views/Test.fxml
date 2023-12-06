@@ -1,0 +1,31 @@
+<?import com.gluonhq.charm.glisten.control.BottomNavigation?>
+<?import com.gluonhq.charm.glisten.control.BottomNavigationButton?>
+<?import com.gluonhq.charm.glisten.control.Icon?>
+<?import com.gluonhq.charm.glisten.mvc.View?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<View maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <Label text="Insert content here" textFill="#9f9f9f" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </center>
+   <bottom>
+      <BottomNavigation>
+         <BottomNavigationButton>
+            <graphic>
+               <Icon content="FAVORITE" />
+            </graphic>
+         </BottomNavigationButton>
+         <BottomNavigationButton>
+            <graphic>
+               <Icon content="BOOKMARK" />
+            </graphic>
+         </BottomNavigationButton>
+      </BottomNavigation>
+   </bottom>
+</View>

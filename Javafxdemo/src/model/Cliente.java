@@ -13,8 +13,7 @@ public class Cliente {
 	public Cliente(String nome, String email,String password) {
 		super();
 		this.nome = nome;
-		this.email = email;
-		this.telefone = telefone;
+		this.email = email;	
 		this.password = password;
 	}
 

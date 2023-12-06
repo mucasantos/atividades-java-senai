@@ -13,27 +13,35 @@ import model.LoginModel;
 
 public class LoginController {
 	public LoginModel login = new LoginModel();
-	
+
 	@FXML
 	TextField passwordField;
 
 	@FXML
+	public void onClickCadastro() throws IOException {
+
+		openScreen("/views/Signup.fxml");
+
+	}
+
+	@FXML
 	public void loadNextScreen() throws IOException {
-		
-		Cliente client = new Cliente("Samuel", "muca@email.com", "12345678");
-		
-		login.signup(client);
-		
-		//Criar um usuario
-		
-		//Pegando a Sena anterior e fechando a tela
-		Stage priorScreen = (Stage)this.passwordField.getScene().getWindow();
+
+		//Cliente client = new Cliente("Samuel", "muca@email.com", "12345678");
+		//login.signup(client);
+		// Criar um usuario
+		// Pegando a Sena anterior e fechando a tela
+		Stage priorScreen = (Stage) this.passwordField.getScene().getWindow();
 		priorScreen.close();
-		
+
+		openScreen("/views/View.fxml");
+	}
+
+	public void openScreen(String url) throws IOException {
 		// Criar Stage
 		Stage stage = new Stage();
 		// Cria um Parent
-		Parent parent = FXMLLoader.load(getClass().getResource("/views/View.fxml"));
+		Parent parent = FXMLLoader.load(getClass().getResource(url));
 		// Cena (Scene)
 		Scene scene = new Scene(parent);
 		// Set stage

@@ -20,14 +20,13 @@ public class LoginModel {
 	}
 	//Criar user (signup)
 	
-	public void signup(Cliente client) {
+	public Boolean signup(Cliente client) throws SQLException {
 		//Salvar este user na tabela
 		//Para salvar no BD, precisamos de um PreparedStatement e ResultSet
 		PreparedStatement prep = null;
 		Boolean result = null;
 		
 		//Preparando a query
-		
 		String query = "insert into escola.users (nome,email, password) values (? , ? , ?)";
 		
 		try {
@@ -40,20 +39,19 @@ public class LoginModel {
 			
 			//executar!!
 			
-			result = prep.execute();
-			
-			System.out.println(result);
+			result = prep.execute();	
+		
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			
+			throw new SQLException(e.getMessage());
 		}
-	
-
-		
-		
+		return result;		
 	}
 	
 	//Fazer login do user
+	
 	
 	
 

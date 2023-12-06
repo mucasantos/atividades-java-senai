@@ -1,6 +1,12 @@
 Criar uma classe Service para conexão com DB
-Criar uma lógica simples de login
+(Criar tela de cadastro)
+(Fazer o link e navegar pra ele)
+
 Cadastrar um user através de nossa app
+
+
+Criar uma lógica simples de login
+
 Cadastrar produtos
 
 Listar produtos
