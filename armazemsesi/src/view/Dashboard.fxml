@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="609.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashBoardController">
+   <children>
+      <AnchorPane prefHeight="607.0" prefWidth="1095.0">
+         <children>
+            <BorderPane prefHeight="489.0" prefWidth="819.0">
+               <top>
+                  <AnchorPane prefHeight="62.0" prefWidth="1210.0" style="-fx-border-color: gray;" BorderPane.alignment="CENTER">
+                     <children>
+                        <Text layoutX="30.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sistema de controle de Estoque">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+               </top>
+               <left>
+                  <AnchorPane prefHeight="427.0" prefWidth="219.0" style="-fx-background-color: gray;" BorderPane.alignment="CENTER">
+                     <children>
+                        <Text layoutX="28.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Armazem Toop">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+               </left>
+               <center>
+                  <AnchorPane prefHeight="442.0" prefWidth="517.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <AnchorPane layoutX="5.0" layoutY="10.0" prefHeight="308.0" prefWidth="330.0" style="-fx-background-color: white;">
+                           <styleClass>
+                              <String fx:value="white-bg" />
+                              <String fx:value="shadow" />
+                           </styleClass>
+                           <children>
+                              <Label layoutX="20.0" layoutY="45.0" text="Nome">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="ModificarNome" layoutX="100.0" layoutY="40.0" prefHeight="25.0" prefWidth="200.0" styleClass="nav-btn" />
+                              <Label layoutX="20.0" layoutY="85.0" text="Valor">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="20.0" layoutY="126.0" text="Quantidade">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="ModificarValor" layoutX="100.0" layoutY="80.0" prefHeight="25.0" prefWidth="200.0" styleClass="nav-btn" />
+                              <TextField fx:id="ModificarQtd" layoutX="100.0" layoutY="121.0" prefHeight="25.0" prefWidth="200.0" styleClass="nav-btn" />
+                              <Button fx:id="BotaoModificar" layoutX="20.0" layoutY="226.0" mnemonicParsing="false" onMouseClicked="#adicionarProduto" prefHeight="42.0" prefWidth="100.0" styleClass="card-green" text="Adicionar" />
+                              <Button fx:id="BotaoLimpar" layoutX="233.0" layoutY="226.0" mnemonicParsing="false" onMouseClicked="#limpar" prefHeight="42.0" prefWidth="83.0" styleClass="card-red" text="Limpar" />
+                              <Line endX="191.0" layoutX="127.0" layoutY="199.0" startX="-115.0" />
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="345.0" layoutY="10.0" prefHeight="535.0" prefWidth="535.0">
+                           <styleClass>
+                              <String fx:value="white-bg" />
+                              <String fx:value="shadow" />
+                           </styleClass>
+                           <children>
+                              <TableView fx:id="TabelaProdutos" layoutY="48.0" onMouseClicked="#produtoSelecionado" prefHeight="487.0" prefWidth="535.0" style="-fx-background-color: orange;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="48.0">
+                                 <columns>
+                                    <TableColumn fx:id="TabelaProdutoId" prefWidth="104.0" text="Id" />
+                                    <TableColumn fx:id="TabelaProdutoNome" minWidth="8.0" prefWidth="135.0" text="Nome" />
+                                    <TableColumn fx:id="TabelaProdutoValor" prefWidth="151.0" text="Valor" />
+                                    <TableColumn fx:id="TabelaProdutoQtd" prefWidth="141.0" text="Quantidade" />
+                                 </columns>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </center>
+            </BorderPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

@@ -19,10 +19,9 @@
 			<item value="org.eclipse.ui.commands"/>
 		</list>
 		<list key="textEntries">
-			<item value="3"/>
+			<item value="2"/>
 		</list>
 		<list key="textArray">
-			<item value="setters"/>
 			<item value="ge"/>
 			<item value="getters"/>
 		</list>

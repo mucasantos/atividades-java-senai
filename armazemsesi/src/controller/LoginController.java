@@ -18,7 +18,7 @@ public class LoginController {
 	@FXML
 	private PasswordField password;
 	
-	@FXML
+	@FXML					
 	void clickLogin() {
 		try {
 			if(username.getText().equals("admin") && password.getText().equals("admin")) {
